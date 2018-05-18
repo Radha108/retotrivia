@@ -8,27 +8,18 @@
 </head>
 
 <body>
-    <div id="upperBar">
-        <span id="nameLabel">Nombre : </span>
-        <span id="name"></span>
-    </div>
-    <div id="scoreBoard">
-        <div id="rightAnswers">
-            <h2>Respuestas correctas</h2>
-            <div id="rightAnswersText">
+    <h1> Hola, ingrese su nombre aquí : </h1>
+    
+    <form id="formulario" method="Post"> 
 
-            </div>
-        </div>
-        <div id="wrongAnswers">
-            <h2>Respuestas incorrectas</h2>
-            <div id="wrongAnswersText">
+        <input type="text" id="texto"/>
+        <input type="button" name="enviar" value="Enviar" onclick= name();"/> 
+       
+        </form> 
 
-            </div>
         </div>
     </div>
-    <div id="warningBlock">
-        <p id="warningMessage"></p>
-    </div>
+
     <script src="app.js"></script>
 </body>
 

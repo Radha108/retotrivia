@@ -1,17 +1,7 @@
-#rightAnswers {
-    background-color: rgb(136, 218, 210);
+img {
     width: 50%;
-    float: left;
-    height: 100vh;
-}
-
-#wrongAnswers {
-    background-color: rgb(233, 150, 150);
-    width: 50%;
-    float: left;
-    height: 100vh;
-}
-
-.answer {
-    color: white;
+    float: right;
+    height: 25vh;
+    margin-right:25%
+    
 }

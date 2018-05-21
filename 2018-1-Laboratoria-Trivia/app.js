@@ -31,4 +31,19 @@ function question1Option2()
         var anwer1ption2 = document.getElementById("written2").value;
         document.getElementById("written2").innerHTML= "¡Correcto!. Pasa a la siguiente pregunta." ;        
         
-    }    
+    } 
+    
+function question2Option1()
+    {
+        var anwer2Option1 = document.getElementById("written3").value;
+        document.getElementById("written3").innerHTML= "¡Incorrecto!. No hay Laboratoria en Concepción . Pasa a la siguiente pregunta." ;        
+        
+    } 
+    
+function question2Option2()
+    {
+        var anwer2Option2 = document.getElementById("written3").value;
+        document.getElementById("written3").innerHTML= "¡Correcto!. Pasa a la siguiente pregunta." ;        
+        
+    } 
+

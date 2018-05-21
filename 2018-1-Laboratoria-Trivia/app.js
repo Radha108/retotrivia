@@ -61,4 +61,18 @@ function question3Option2()
         
     } 
 
+function question4Option1()
+    {
+        var anwer4Option1 = document.getElementById("written5").value;
+        document.getElementById("written5").innerHTML= "¡Incorrecto!. Laboratoria tiene una colocacion laboral de más del 80%. ¡Gracias por participar en la trivia!" ;        
+        
+    } 
+    
+function question4Option2()
+    {
+        var anwer4Option2 = document.getElementById("written5").value;
+        document.getElementById("written5").innerHTML= "¡Correcto!.Laboratoria tiene una colocacion laboral de más del 80%. ¡Gracias por participar en la trivia!" ;        
+        
+    } 
+
 

@@ -45,5 +45,20 @@ function question2Option2()
         var anwer2Option2 = document.getElementById("written3").value;
         document.getElementById("written3").innerHTML= "¡Correcto!. Pasa a la siguiente pregunta." ;        
         
+    }
+
+function question3Option1()
+    {
+        var anwer3Option1 = document.getElementById("written4").value;
+        document.getElementById("written4").innerHTML= "¡Correcto!. Pasa a la siguiente pregunta." ;        
+        
     } 
+    
+function question3Option2()
+    {
+        var anwer3Option2 = document.getElementById("written4").value;
+        document.getElementById("written4").innerHTML= "¡Incorrecto!. El bootcamp dura 6 meses. Pasa a la siguiente pregunta." ;        
+        
+    } 
+
 
